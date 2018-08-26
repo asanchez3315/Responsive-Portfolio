@@ -1,0 +1,220 @@
+
+ body{
+        margin: auto;
+        padding:auto;
+        background-image:url("../images/dust_scratches.png");
+        
+   }
+   
+    
+    header{
+        border-bottom: solid #cccccc;
+        margin: 0;
+        background:white; 
+        overflow:auto      
+    }
+
+    h1{
+        
+        background:#4aaaa5;
+        width:25%;
+        margin-bottom:0;
+        margin:0;
+        float:left;
+        margin-right:0;
+        margin-left:159px;
+        padding-top:10px;
+        padding-bottom:13px;
+        padding-left:5px;
+        padding-right:5px;
+        font-size:24px;
+        text-align:center;
+        font-family:" Georgia, 'Times New Roman', Times, serif";
+        color:#ffffff
+        
+    }
+
+        h2{
+            margin-left:20px;
+            text-align:left;
+            color:#4aaaa5;
+            padding-top:19px
+        }
+    
+
+     footer{
+        clear:both; 
+        background:#666666;
+        padding-bottom:20px;
+        color: white;
+        text-align:center;
+        margin:0;
+        position:fixed;
+        bottom:0;
+        width:100%;
+        border-bottom:solid black;
+        border-top:solid #4aaaa5 5px;
+        padding-bottom:1px;
+        padding-top:15px;
+    }
+
+   nav{
+      float:right;
+      margin-right:138px
+   }
+   
+
+   img{
+       float:left;
+       margin-right:10px;
+       margin-left:20px;
+       width:150px;
+       height:150px
+       
+   }
+
+   li{
+       list-style: none;
+       display:inline-block;
+       margin-right:20px
+        }
+
+  a{
+      color:lightslategray
+  }
+
+  section{
+      background:white;
+      text-align:center;
+      width:960px;
+      margin:auto;
+      margin-top:2%;
+      margin-bottom:4.5%;
+      
+  }
+
+  p{
+      font-size:18px;
+      color:lightslategray
+  }
+
+  .navlinks {
+      text-decoration: none;
+  }
+ 
+  hr{
+      border-top:solid lightgrey;
+      width:94%
+  }
+
+  @media screen and (max-width: 980px){
+
+    section{
+        width:90%
+    }  
+    
+    h1{
+        margin-left:48px
+    }
+
+    ul{
+        margin-right:-57px
+    }
+
+    header{
+        overflow-x: hidden
+    }
+
+    img{
+        margin-top:10px
+    }
+
+    .pmargin{
+        margin-top:15px
+    }
+      nav{
+          margin-right:86px
+      }  
+
+    }
+     @media screen and (max-width: 768px){ 
+
+        section{
+            width: 90%;
+            height:95%
+        }   
+            img {
+                width:50%;
+                height:242px
+             }
+
+             .pmargin{
+                 margin:10px
+             }
+
+             h1{
+                 width:30%;
+                 margin-left:37px
+             }
+
+             body{
+                /* overflow-y: hidden; */
+             }
+             
+
+        
+    
+        } 
+        
+        @media screen and (max-width: 640px){
+
+            body{
+               
+               /* overflow-y: hidden;  */
+            }
+
+            header{
+                overflow-x: hidden
+            }
+
+            section{
+                width:90%
+            }  
+            
+            h1{
+                width:100%;
+                margin-left:0;
+            
+            }
+
+            
+            
+
+            ul{
+            
+                margin-right:58px
+            }
+               img{
+                   width:492px;
+                   height:300px;
+                   margin:25px
+                 }
+
+                 p{
+                   font-size:16px  
+                 }
+
+                 nav{
+                    margin-right:133px
+                 }
+
+                
+
+                @media (max-width: 320px){
+                    .container{
+                        width:320px
+                    }
+                }
+
+
+
